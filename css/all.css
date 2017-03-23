@@ -1,0 +1,468 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html{
+	background: #EFE9E7;
+	font-family: "微軟正黑體";
+}
+
+.wrap{
+	width:  1040px;
+	margin: 0 auto;
+	color: #3D1101;
+	position: relative;
+}
+
+.header{
+	width:  100%;
+	height:  70px;
+	position: relative;
+	background: #000;
+}
+
+.logo{
+	color: white;
+	font-weight: bold;
+	float: left;
+	font-size: 30px;
+	padding: 20px;
+}
+
+.functionBar{
+	color: white;
+	font-size: 20px;
+	float: left;
+	position: absolute;
+	right: 0px;
+	padding-right: 45px;
+	padding-top: 15px;
+}
+
+.functionBar ul li{
+	float: left;
+}
+
+.functionBar ul li a{
+	color: white;
+	display: block;
+	text-decoration: none;
+	padding: 10px;
+}
+.functionBar ul li a:hover{
+	color: orange;
+}
+
+.homepagePic img{
+	width: 100%;
+	position: relative;
+	z-index: 1;
+
+}
+
+.sloganBG{
+	width: 445px;
+	height: 175px;
+	background: rgba(0,0,0,0.55);
+	position: absolute;
+	top:  50%;
+	left: 50%;
+	margin-top: -590px;
+	margin-left: -240px;
+	z-index: 2 ;
+}
+
+.sentence{
+	color:white;
+	opacity: 1;
+	font-size: 35px;
+	text-align: center;
+	padding: 35px 0 25px 0;
+}
+
+.description{
+	color:white;
+	font-size: 17px;
+	text-align: center;
+}
+
+.description img{
+	width: 20px;
+	height: 20px;
+	margin: 10px 0;
+	vertical-align:middle;
+}
+
+
+
+.contentContainer{
+	width: 1000px;
+	margin: 30px 20px 125px 20px;
+	/*padding: 0 60px;*/
+}
+
+
+
+.list{
+	float: left;
+	width: 250px;
+}
+
+.list-title{
+	width: 230px;
+	margin:20px 0;
+	text-align: center;
+}
+
+.list-title img{
+	width: 35px;
+	height: 35px;
+	vertical-align: middle;
+}
+
+.list-content{
+	width: 230px;
+	margin:20px 0;
+}
+
+
+ul li{
+	list-style-type:none;
+}
+
+.list ul li a{
+	color: #3D1101;
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	border-bottom: 1px solid  #3D1101;
+
+}
+
+.list ul li a:hover{
+	background: #3D1101;
+	color: white;
+}
+
+.product-whole-page{
+	width: 750px;
+	float: left;
+}
+
+.searchFunArea{
+	height: 40px;
+	margin: 20px 20px 20px 20px;
+	position: relative;
+}
+
+.searchFunArea input[type=text]{
+	width: 285px;
+	height: 12px;
+	padding: 6px;
+	border: 2px solid #3D1101;
+	float: left;
+}
+
+.searchFunArea input[type=button]{
+	width: 50px;
+	height: 28px;
+	background: #3D1101;
+	border-style: none;
+	float: left;
+	display: block;
+	padding: 10px;
+}
+
+.searchBarArea{
+	float: left;
+	position: relative;
+}
+
+
+.searchBarArea img{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	right: 15px;
+	top: 5px;
+	float: left;
+}
+
+
+.checkOutArea{
+	float: left;
+	position: absolute;
+	right: 0px;
+}
+
+.checkOutArea a{
+	border-right: 1px solid #3D1101;
+	font-size: 17px;
+	text-decoration: none;
+	color: #3D1101;
+	padding-right: 10px;
+}
+
+.checkOutArea img{
+	width: 30px;
+	height: 30px;
+	padding-left: 10px;
+}
+
+
+.productListArea{
+	width: 750px;
+
+}
+
+.line{
+	height: 240px;
+	margin: 15px;
+}
+
+
+.productItem{
+	width: 220px;
+	height: 280px;
+	margin: 10px;
+	float: left;
+	box-shadow: 6px 6px 10px 1px rgba(0,0,0,0.3);
+	z-index: 1;
+}
+
+.piPic{
+	width: 220px;
+	height: 95px;
+	position: relative;
+	z-index: 2;
+}
+
+
+#piPic-heart{
+	width: 30px;
+	height: 0px;
+}
+
+#piPic-heart label{
+	width: 30px;
+	height: 30px;
+	display: block;
+	padding: 15px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 3;
+	float: left;
+	content: url('../img/heartOutline.png');
+}
+
+#piPic-heart input[type=checkbox]:checked + label {
+	width: 30px;
+	height: 30px;
+	display: block;
+	padding: 15px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 3;
+	float: left;
+	content: url('../img/heartFull.png');
+}
+#piPic-heart input[type=checkbox]{
+	visibility: hidden;
+}
+
+
+#piPic-hotselling img{
+	width: 90px;
+	height: 90px;
+	position: absolute;
+	top: -5px;
+	right: -5px;
+	z-index: 3;
+	float: left;
+}
+
+#piPic-hotselling-word{
+	transform: rotate(-315deg);
+	font-weight: bold;
+	position: absolute;
+	top: 20px;
+	right: -7px;
+	font-family: NotoSansCJKtc-Bold;
+	font-size: 16px;
+	color: #FFFFFF;
+	z-index: 4;
+}
+
+.piWord{
+	height: 108px;
+	text-align: center;
+	margin: 15px 0 0 0;
+}
+
+.piWord h3{
+	font-size: 28px;
+}
+
+.piWord-ads{
+	height: 15px;
+	font-size: 14px;
+	margin: 6px 0;
+}
+
+.piWord-price{
+	font-size: 22px;
+	margin: 10px 0;
+}
+
+.piBuyBtn{
+	height: 50px;
+	position: relative;
+}
+
+.piBuyBtn a{
+	display: block;
+	width: 65%;
+	margin: 0 auto;
+	border: 3px solid #FF5E45;
+	border-radius:  5px;
+	background: #EFE9E7;
+	color: #FF5E45;
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: right;
+	padding: 10px 35px 10px 0;
+}
+
+.piBuyBtn img{
+	width: 22px;
+	height: 22px;
+	position: absolute;
+	left: 60px;
+	top: 8px;
+
+}
+
+
+
+.footer{
+	height: 180px;
+	margin: 10px 20px;
+}
+
+.store-info{
+	float: left;
+	line-height: 25px;
+	margin: 0 10px;
+}
+
+.store-info span{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.store-info div{
+	width: 260px;
+	padding: 10px 0;
+}
+
+
+.contact-info{
+	float: left;
+	line-height: 25px;
+	margin: 0 10px;
+}
+
+.contact-info span{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.li-box{
+	width: 260px;
+	padding: 10px 0;
+	margin: 0 20px;
+}
+
+.contact-info li{
+	list-style-type: disc;
+	line-height: 5px;
+	padding: 10px 0;
+}
+
+.outer-link{
+	float: right;
+	line-height: 60px;
+	margin: 0 10px;
+	position: relative;
+}
+
+.outer-link span{
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.social-box{
+	width: 70%;
+	height: 40px;
+	position: absolute;
+	right: 0px;
+}
+
+.social-box li img{
+	width: 40px;
+	height: 40px;
+	float: left;
+}
+
+
+.clear{
+	clear: both;
+}
